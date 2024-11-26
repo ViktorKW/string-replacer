@@ -1,0 +1,17 @@
+{
+	"source_dir": "./source",
+	"output_dir": "./output",
+
+	"file_patterns": [
+		{
+			"include": "*.json",
+			"exclude": "",
+			"replacements": [
+				{ "old_str": "8a85-d644aa186bbf", "new_str": "8a85-new-str" },
+				{ "old_str": "132specificTenant", "new_str": "132-new-str" },
+				{ "old_str": "asset_tp_f8bc6ed6", "new_str": "asset-new-str" },
+				{ "old_str": "someStr", "new_str": "some-new-str" }
+			]
+		}
+	]
+}
